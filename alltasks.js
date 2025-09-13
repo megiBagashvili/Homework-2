@@ -30,6 +30,18 @@ function calculateDigitSum(number) {
 console.log(calculateDigitSum(15243));
 
 //Task 3
+
+function removeDuplicates(word) {
+  let spellCheck = [];
+  for (let i = 0; i < word.length; i++) {
+    if (!spellCheck.includes(word[i])) {
+      spellCheck.push(word[i]);
+    }
+  }
+  return spellCheck.join('');
+}
+console.log(removeDuplicates('balloon'));
+
 //Task 4
 //Task 5
 //Task 6    
