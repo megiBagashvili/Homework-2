@@ -54,8 +54,27 @@ function removeEmptySpaces(phrase){
 }
 
 console.log(removeEmptySpaces('I am happy today'));
+
 //Task 5
-//Task 6    
+function reverseEachWord(sentence) {
+  let wordsArr = sentence.split(' ');
+  let reversedWordsArr = [];
+  for (let i = 0; i < wordsArr.length; i++) {
+    reversedWordsArr.push(wordsArr[i].split('').reverse().join(''));
+  }
+  return reversedWordsArr.join(' ');
+}
+console.log(reverseEachWord('Hello World'));
+
+
+
+//Homework completed
+
+
+//Lecture tasks below
+
+
+//Task from lecture #1
 //Task 7
 //Task 8
 //Task 9
