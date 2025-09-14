@@ -43,6 +43,17 @@ function removeDuplicates(word) {
 console.log(removeDuplicates('balloon'));
 
 //Task 4
+function removeEmptySpaces(phrase){
+  let result = '';
+  for(let i = 0; i < phrase.length; i++){
+    if(phrase[i] !== ' '){
+      result += phrase[i];
+    }
+  }
+  return result;
+}
+
+console.log(removeEmptySpaces('I am happy today'));
 //Task 5
 //Task 6    
 //Task 7
